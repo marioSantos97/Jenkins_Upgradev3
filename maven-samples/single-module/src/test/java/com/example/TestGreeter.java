@@ -43,7 +43,7 @@ public class TestGreeter {
 
   @Test
   public void greetShouldIncludeCustomMessage() {
-    String someone = "Hi friend this is mario coding like a mad man!! :+()";
+    String someone = "Hi friend this is carol coding like a mad man!! :+()";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
